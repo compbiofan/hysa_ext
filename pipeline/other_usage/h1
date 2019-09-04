@@ -1,0 +1,500 @@
+   12  pushd ~/1000G_GS/NA12878/pendleton/
+   13  $L
+   14  qstat
+   15  $L ../svclassify/
+   16  $l ~/878_2/validation/large_DEL/delly/
+   17  $l ~/878_2/validation/large_DEL/
+   18  $L
+   19  wc -l del.custom.WG.validated.pbHoneyContri.bed
+   20  wc -l del.pbhoney.WG.validated.pbHoneyContri.bed
+   21  pwd
+   22  cd ../svclassify/
+   23  $L
+   24  pwd
+   25  ls /scratch/bcb/xfan3/1000G_GS/NA12878/svclassify/del.WG.validated.svclassifyContri.bed
+   26  pushd ~/878_2/validation/large_DEL/delly/
+   27  $L
+   28  less run.alignAll2CHM1Asm.0.err
+   29  qstat
+   30  less run.alignAll2CHM1Asm.0.PBS
+   31  less run.alignAll2CHM1Asm.0.PBS
+   32  popd
+   33  pwd
+   34  less /scratch/bcb/xfan3/1000G_GS/NA12878/svclassify/run.alignAll2CHM1Asm.1.PBS
+   35  popd
+   36  pushd ~/878_2/validation/large_DEL/delly/
+   37  ls
+   38  $L
+   39  vim run.alignAll2CHM1Asm.0.part2.sh
+   40  ./run.alignAll2CHM1Asm.0.part2.sh
+   41  $L
+   42  less del.WG.validated.
+   43  less del.WG.validated.bed 
+   44  vim ./run.alignAll2CHM1Asm.0.part2.sh
+   45  ls del.bwa_allctg2asm.analysis.well_aligned.txt
+   46  ls del.bwa_allctg2asm.analysis.wel_aligned.txt
+   47  vim ./run.alignAll2CHM1Asm.0.part2.sh
+   48   ./run.alignAll2CHM1Asm.0.part2.sh
+   49  $L
+   50  vim ./run.alignAll2CHM1Asm.0.part2.sh
+   51  ls del.bwa_allctg2asm.analysis.wel_aligned.txt
+   52  less del.bwa_allctg2asm.analysis.wel_aligned.txt
+   53  vim ./run.alignAll2CHM1Asm.0.part2.sh
+   54  less del.bed
+   55  less ~/NA12878_validation/large_DEL/delly/run.alignAll2CHM1Asm.sh 
+   56  mv del.bwa_allctg2asm.analysis.wel_aligned.txt del.bwa_allctg2asm.analysis.well_aligned.txt
+   57  vim txt
+   58  vim *part2.sh
+   59  $l *part2.sh
+   60  ./run.alignAll2CHM1Asm.0.part2.sh
+   61  $L
+   62  less del.bwa_allctg2asm.analysis.well_aligned.txt
+   63  vim run.alignAll2CHM1Asm.0.PBS
+   64  less run.alignAll2CHM1Asm.0.part2.sh
+   65  less del.bwa_allctg2asm.analysis.well_aligned.txt
+   66  less run.alignAll2CHM1Asm.0.part2.sh
+   67  vim run.alignAll2CHM1Asm.0.part2.sh
+   68  less ~/1000G_GS/NA12878/svclassify/run.alignAll2CHM1Asm.1.PBS
+   69  less ~/1000G_GS/NA12878/svclassify/del.bwa_allctg2asm.analysis.well_aligned.txt
+   70  less ~/1000G_GS/NA12878/svclassify/run.alignAll2CHM1Asm.1.PBS
+   71  vim run.alignAll2CHM1Asm.0.PBS
+   72  pwd
+   73  ls
+   74  vim *part2.sh
+   75  ls *part2.sh
+   76  ./run.alignAll2CHM1Asm.0.part2.sh
+   77  $L
+   78  wc -l del.WG.validated.dellyContri.bed
+   79  cd combinePBIL/scripts/pp
+   80  $L
+   81  less extract_both_unmapped.sh 
+   82  ./extract_both_unmapped.sh 
+   83   perl runFetchShort.empoweredByRef.byChr.pl
+   84  which perl
+   85  vim runFetchShort.empoweredByRef.byChr.pl
+   86  vim runFetchShort.empoweredByRef.byChr.pl
+   87  vim cp.log 
+   88  vim run.log
+   89  cp ~/combinePBIL/scripts/combine_all_discordant.pl ./
+   90  cd 878_2/validation/
+   91  $L
+   92  cd large_INS
+   93  cd ../large_DEL
+   94  ls
+   95  cd get_curated/
+   96  ls
+   97  $L
+   98  $L
+   99  ln -s ../../../analysis_all/out.del.GT50.bed ../../
+  100  pushd ../../
+  101  ls
+  102  rm out.del.GT50.bed 
+  103  cd large_
+  104  cd large_DEL
+  105  ln -s ../../analysis_all/out.del.GT50.bed ./
+  106  less out.del.GT50.bed 
+  107  cp /scratch/bcb/xfan3/878_3/analysis_all/rerun/large_DEL/run.alignAll2CHM1Asm.0.PBS ./
+  108  vim run.alignAll2CHM1Asm.0.PBS 
+  109  ln -s out.del.GT50.bed del.bed
+  110  vim run.alignAll2CHM1Asm.0.PBS 
+  111  pwd
+  112  vim run.alignAll2CHM1Asm.0.PBS 
+  113  ls /scratch/1KGENOME/GIAB/NA12878/analysis2/validation/large_DEL
+  114  vim run.alignAll2CHM1Asm.0.PBS 
+  115  vim run.alignAll2CHM1Asm.0.PBS 
+  116  ls /scratch/1KGENOME/GIAB/NA12878/analysis2/pipe/validation/large_DEL
+  117  msub run.alignAll2CHM1Asm.0.PBS 
+  118  source ~/.profile; msub run.alignAll2CHM1Asm.0.PBS 
+  119  cd ../large_INS
+  120  ln -s ../../analysis_all/out.ins.GT50.flanking50.bed ./
+  121  pushd ../../analysis_all
+  122  ls ../analysis/all.ctg.fa
+  123  less ../analysis/all.ctg.fa
+  124  pwd
+  125  ln -s ../analysis/all.ctg.fa union_find.ctg.fa
+  126  ln -s ../analysis_infomap/all.ctg.fa infomap.ctg.fa
+  127  less infomap.ctg.fa 
+  128  perl -ane '$_ =~ s/ctg/ctg0/g' union_find.ctg.fa > union_find.ctg.rnamed.fa 
+  129  perl -ane '$_ =~ s/ctg/ctg1/g' infomap.ctg.fa > infomap.ctg.rnamed.fa 
+  130  $L
+  131  less union_find.ctg.fa
+  132  perl -ane '$_ =~ s/ctg/ctg0/g; print $_' union_find.ctg.fa > union_find.ctg.rnamed.fa 
+  133  less union_find.ctg.rnamed.fa 
+  134  perl -ane '$_ =~ s/ctg/ctg1/g; print $_' infomap.ctg.fa > infomap.ctg.rnamed.fa 
+  135  pwd
+  136  cd ../validation/large_INS
+  137  cd ../../analysis_all
+  138  cat union_find.ctg.rnamed.fa infomap.ctg.rnamed.fa > all.ctg.fa
+  139  pwd
+  140  less /scratch/bcb/xfan3/combinePBIL/scripts/runBlasr.pl
+  141  qstat
+  142  pushd ~/pp
+  143  pushd ~/combinePBIL/scripts/pp
+  144  cp ~/u/get_new_m4_from_out.pl ./
+  145  cp ~/u/renumber_nodes.pl ./
+  146  qstat
+  147  qstat
+  148  cd 878_3/analysis_all/rerun/large_DEL/get_curated/
+  149  $L
+  150  pushd /scratch/bcb/xfan3/1000G_GS/NA12878/svclassify/
+  151  $L
+  152  less original.bed 
+  153  perl -ane 'print $_ if($_ !~ /^chr/)' original.bed > original.woheader.bed 
+  154  vim run.WG.log
+  155  ~/bin/liftover_hg19_hg38.sh original.woheader.bed 
+  156  less original.woheader.bed
+  157  perl -ane 'print $_ if($_ !~ /^Chr/)' original.bed > original.woheader.bed 
+  158  ~/bin/liftover_hg19_hg38.sh original.woheader.bed 
+  159  less chr20.bed.wchr.liftOver.build38
+  160  less original.woheader.bed.wchr.liftOver.build38
+  161  pushd /scratch/bcb/xfan3/1000G_GS/NA12878/pendleton/
+  162  $L
+  163  less del.PBhoney.GT50.bed.wchr.liftOver.build38
+  164  less del.PBhoney.bed
+  165  less nmeth.3454-S3.txt
+  166  wc -l nmeth.3454-S3.chr20.PBhoneyRaw.txt
+  167  wc -l del.PBhoney.bed
+  168  less nmeth.3454-S3.chr20.PBhoneyRaw.txt
+  169  grep -c del nmeth.3454-S3.chr20.PBhoneyRaw.txt
+  170  less nmeth.3454-S3.txt
+  171  less nmeth.3454-S3.txt
+  172  perl -ane 'print $_ if($_ !~ /^Chrom/ && $F[3] == 1 && $_ =~ /del/i)' nmeth.3454-S3.txt > del.pbhoney.WG.txt
+  173  vim run.WG.log
+  174  perl -ane 'print $_ if($_ !~ /^Chrom/ && $F[4] == 1 && $_ =~ /del/i)' nmeth.3454-S3.txt > del.custom.WG.txt
+  175  perl -ane 'print join("\t", $F[0], $F[1], $F[2]) . "\n"' del.pbhoney.WG.txt > del.pbhoney.WG.bed
+  176  perl -ane 'print join("\t", $F[0], $F[1], $F[2]) . "\n"' del.custom.WG.txt > del.custom.WG.bed
+  177  ~/bin/liftover_hg19_hg38.sh del.pbhoney.WG.bed 
+  178  ~/bin/liftover_hg19_hg38.sh del.custom.WG.bed 
+  179  vim run.WG.log 
+  180  less del.pbhoney.WG.bed
+  181  wc -l del.pbhoney.WG.bed
+  182  wc -l del.custom.WG.bed
+  183  less del.PBhoney.GT50.bed.wchr.liftOver.build38
+  184  perl -ane 'print $_ if($F[2] - $F[1] <= 50)' del.pbhoney.WG.txt | wc -l
+  185  perl -ane 'print $_ if($_ !~ /^Chrom/ && $F[3] == 1 && $_ =~ /del/i && $F[2] - $F[1] > 50)' nmeth.3454-S3.txt > del.pbhoney.WG.txt
+  186  perl -ane 'print $_ if($_ !~ /^Chrom/ && $F[4] == 1 && $_ =~ /del/i && $F[2] - $F[1] > 50)' nmeth.3454-S3.txt > del.custom.WG.txt
+  187  perl -ane 'print join("\t", $F[0], $F[1], $F[2]) . "\n"' del.pbhoney.WG.txt > del.pbhoney.WG.bed
+  188  perl -ane 'print join("\t", $F[0], $F[1], $F[2]) . "\n"' del.custom.WG.txt > del.custom.WG.bed
+  189  ~/bin/liftover_hg19_hg38.sh del.pbhoney.WG.bed
+  190  ~/bin/liftover_hg19_hg38.sh del.custom.WG.bed
+  191  $l
+  192  pushd ~/878_3/analysis_all/rerun/large_DEL/
+  193  $l
+  194  pwd
+  195  cd ../large_INS
+  196  $L
+  197  less all.fa
+  198  pwd
+  199  pushd ~/combinePBIL/scripts/pp
+  200  $L
+  201  cp runFetchShort.empoweredByRef.byChr.pl runFetchShort.empoweredByRef.byChr.rewritten.pl 
+  202  vim runFetchShort.empoweredByRef.byChr.rewritten.pl
+  203  vim runFetchShort.empoweredByRef.byChr.rewritten.pl
+  204  mv runFetchShort.empoweredByRef.byChr.rewritten.pl tmp.txt
+  205  vim tmp.txt
+  206  vim tmp.txt1
+  207  cat tmp.txt tmp.txt1 > runFetchShort.empoweredByRef.byChr.rewritten.pl 
+  208  vim runFetchShort.empoweredByRef.byChr.rewritten.pl
+  209  perl runFetchShort.empoweredByRef.byChr.rewritten.pl
+  210  vim runFetchShort.empoweredByRef.byChr.rewritten.pl
+  211  perl runFetchShort.empoweredByRef.byChr.rewritten.pl
+  212  vim runFetchShort.empoweredByRef.byChr.rewritten.pl
+  213  perl runFetchShort.empoweredByRef.byChr.rewritten.pl
+  214  vim runFetchShort.empoweredByRef.byChr.rewritten.pl
+  215  perl runFetchShort.empoweredByRef.byChr.rewritten.pl
+  216  mv runFetchShort.empoweredByRef.byChr.rewritten.pl extract_discordant.pl
+  217  mv extract_discordant.pl extract_short.pl
+  218  vim extract_short.pl 
+  219  ls
+  220  perl filterPairedUnmapped.pl
+  221  less extract_both_unmapped.sh 
+  222  vim extract_both_unmapped.sh 
+  223  vim extract_both_unmapped.sh 
+  224  $L
+  225  less combine_mapped_unmapped.pl 
+  226  vim combine_mapped_unmapped.pl 
+  227  less ~/combinePBIL/scripts/combine_all_discordant.pl 
+  228  ls /scratch/1KGENOME/GIAB/NA12878/analysis/extracted_short_10202015/
+  229  ls /scratch/1KGENOME/GIAB/NA12878/analysis2/mapped1_06132016/readme
+  230  les /scratch/1KGENOME/GIAB/NA12878/analysis2/mapped1_06132016/readme
+  231  vim extract_short.pl 
+  232  cd 878_3/analysis_all/rerun/large_DEL
+  233  ls
+  234  cd gt
+  235  cd get_curated/
+  236  $l
+  237  cd ..
+  238  $L
+  239  cd get_curated/
+  240  cd ..
+  241  ls
+  242  cd large_INS
+  243  ls
+  244  cd ..
+  245  cd large_INS
+  246  ls
+  247  pwd
+  248  pwd
+  249  vim run.0.PBS
+  250  vim run.0.PBS
+  251  ls /scratch/1KGENOME/GIAB/NA12878/analysis3/pipe/analysis_all/rerun/large_INS
+  252  vim run.0.PBS
+  253  qstat
+  254  $L ~/878_3/analysis_all/rerun/large_DEL/get_curated/
+  255  cd ../large_DEL
+  256  $L
+  257  pushd ~/878_2/validation/large_DEL/get_curated/
+  258  $L
+  259  ln -s /scratch/bcb/xfan3/1000G_GS/NA12878/pendleton/del.pbhoney.WG.validated.pbHoneyContri.bed pbhoney.bed
+  260  ln -s /scratch/bcb/xfan3/1000G_GS/NA12878/pendleton/del.custom.WG.validated.pbHoneyContri.bed custom.bed
+  261  ln -s /scratch/bcb/xfan3/1000G_GS/NA12878/svclassify/del.WG.validated.svclassifyContri.bed svclassify.bed
+  262  cd 878_2/validation/large_DEL/ROC
+  263  $L
+  264  less run_roc.sh
+  265  pushd ../delly/ROC
+  266  L$
+  267  vim run_roc.sh
+  268  ./run_roc.sh
+  269  $L
+  270  less roc.out
+  271  pwd
+  272  ./run.sh
+  273  $L
+  274  less roc.csv
+  275  pwd
+  276  cd ..
+  277  top
+  278  cd 878_2/validation/large_DEL/get_curated/
+  279  $L
+  280  ln -s ../delly/del.WG.validated.dellyContri.bed delly.bed
+  281  ls
+  282  $L
+  283  cd ..
+  284  $L
+  285  qstat
+  286  less del.validated.bed 
+  287  wc -l del.validated.bed 
+  288  less run.alignAll2CHM1Asm.0.PBS
+  289  less del.validated.bed 
+  290  vim run.alignAll2CHM1Asm.0.PBS
+  291  tail -n 1 run.alignAll2CHM1Asm.0.PBS
+  292  perl -ane 'print $_ if($F[$#F] == 1)' del.validated.bed > del.ourContri.validated.bed
+  293  cd get_curated/
+  294  ln -s ../del.ourContri.validated.bed our.bed
+  295  $L
+  296  cp ~/878_3/analysis_all/rerun/large_DEL/get_curated/run.all.log ./
+  297  vim run.all.log 
+  298  L$
+  299  ./run.all.log
+  300  $L
+  301  less all.bed1.rmdup 
+  302  wc -l all.bed1.rmdup 
+  303  wc -l our.bed
+  304  wc -l *.bed
+  305  cd ../delly/
+  306  less ~/NA12878_validation/large_DEL/delly/ROC/run.sh
+  307  less ~/NA12878_validation/large_DEL/delly/ROC/run.log
+  308  less ~/NA12878_validation/large_DEL/delly/ROC/run.sh
+  309  mkdir ROC; cd ROC; cp ~/NA12878_validation/large_DEL/delly/ROC/run.sh ./
+  310  vim run.sh
+  311  ln -s ../../get_curated/all.bed1.rmdup gs.bed
+  312  vim run.sh
+  313  less ../del.bed
+  314  wc -l ../del.bed
+  315  wc -l ../del.WG.validated.bed
+  316  ln -s ../del.bed ./
+  317  vim run.sh
+  318  rm del.bed 
+  319  ln -s ../del.bed delly.bed
+  320  vim run.sh
+  321  ./run.sh
+  322  $L
+  323  cp ~/NA12878_validation/large_DEL/delly/ROC/run.log ./
+  324  vim run.log
+  325   head -n 102 roc.out | tail -n 101 | head -n 100| less
+  326  vim run.log
+  327  ./run.log
+  328  $L
+  329  less roc.csv
+  330  vim run.log
+  331  vim run.log
+  332  wc -l ~/878_3/analysis_all/rerun/large_DEL/get_curated/all.bed1.rmdup
+  333  wc -l delly.bed
+  334  wc -l gs.bed 
+  335  vim run.log
+  336  ./run.log
+  337  $L
+  338  less roc.csv
+  339  cd ../
+  340  cd../
+  341  cd ..
+  342  mkdir ROC
+  343  cd ROC
+  344  ls ~/878_3/analysis_all/rerun/large_DEL/ROC/ 
+  345  ls /scratch/bcb/xfan3/878_3/analysis_all/rerun/large_DEL/roc.csv
+  346  pwd
+  347  cp /scratch/bcb/xfan3/878_3/analysis_all/rerun/large_DEL/run_roc.sh ./
+  348  pwd
+  349  ln -s ../get_curated/all.bed1.rmdup gs.bed
+  350  ln -s ../del.bed our.bed
+  351  vim run.sh
+  352  vim run_roc.sh 
+  353  less our.bed
+  354  ln -s ../del.validated.bed ./
+  355  rm our.bed
+  356  less del.validated.bed 
+  357  ls ../
+  358  ln -s ../out.del.GT50.bed ./our.bed
+  359  rm del.validated.bed 
+  360  vim run_roc.sh 
+  361  ./run_roc.sh 
+  362  less run_roc.sh 
+  363  less our.bed
+  364  $L
+  365  less ../out.del.GT50.bed 
+  366  less ../../../analysis_all/out.del.rmdup.bed 
+  367  head -n 1 ../../../analysis_all/out.del.rmdup.bed 
+  368  perl -ane 'print join("\t", @F[0 .. 2], $F[$#F]) . "\n" if($F[3] > 50)' ../../../analysis_all/out.del.rmdup.bed > ours.bed
+  369  pwd
+  370  vim run.log
+  371  less ours.bed
+  372  vim run_roc.sh 
+  373  ./run_roc.sh 
+  374  less ours.bed 
+  375  $L
+  376  less ours.bed 
+  377  rm our.bed
+  378  vim run_roc.sh 
+  379  ./run_roc.sh 
+  380  cp /scratch/bcb/xfan3/878_3/analysis_all/rerun/large_DEL/run.log ./run.log1
+  381  mv run_roc.sh run.sh
+  382  mv run.sh run_roc.sh
+  383  mv run.log run.sh
+  384  mv run.sh run.log
+  385  mv run.log1 run.sh
+  386  less run.log
+  387  less run.sh
+  388  vim run.sh
+  389  vimrun.sh
+  390  $L ours.bed
+  391  wc -l ours.bed
+  392  wc -l gs.bed
+  393  vim run.sh
+  394  ./run.sh
+  395  vim run.sh
+  396  ./run.sh
+  397  vim run.sh
+  398  ./run.sh
+  399  pushd ../delly/ROC
+  400  mv run.sh run_roc.sh
+  401  mv run.log run.sh
+  402  popd
+  403  $L
+  404  less roc.csv
+  405  less roc.csv
+  406  vim run.sh
+  407  less sen_spe.csv
+  408  less specificity.csv 
+  409  vim run_roc.sh 
+  410  less roc.out
+  411  vim run_roc.sh 
+  412  less ~/bin/intersectBed.v.sh
+  413  ./run_roc.sh 
+  414  ./run.sh 
+  415  $L
+  416  less roc.csv
+  417  cd ../get_curated/
+  418  $L
+  419  cd ..
+  420  $L
+  421  cd ROC
+  422  $
+  423  $L
+  424  pwd
+  425  cd ../delly/ROC
+  426  $L
+  427  pwd
+  428  pushd ~/878_2/analysis_all/
+  429  $L
+  430  wc -l *.bed
+  431  cd ../
+  432  ls *.sh
+  433  less run_PB_asm.sh
+  434  grep -c prepare run_PB_asm.sh
+  435  grep -c prepare run_PB_asm_infomap.sh 
+  436  cd assembly
+  437  grep ">" all.faa | perl -ane 'if($_ =~ /g(\d+)/){print $1. "\n"}' | sort | uniq | wc -l
+  438  grep ">" ../assembly_infomap/all.fa | perl -ane 'if($_ =~ /g(\d+)/){print $1. "\n"}' | sort | uniq | wc -l
+  439  grep ">" ../assembly_infomap/all.faa | perl -ane 'if($_ =~ /g(\d+)/){print $1. "\n"}' | sort | uniq | wc -l
+  440  cd ..
+  441  ls *.m4
+  442  ls union_find.0.PBS
+  443  less union_find.0.PBS
+  444  less out.m4.filtered
+  445  awk 'print $1' out.m4.filtered | less
+  446  awk '{print $1}' out.m4.filtered | less
+  447  awk '{print $1}' out.m4.filtered | sort | wc -l
+  448  awk '{print $1}' out.m4.filtered | uniq | sort | uniq | wc -l
+  449  awk '{print $2}' out.m4.filtered | uniq | sort | uniq | wc -l
+  450  less tmp0/ref.fa.fai
+  451  cat tmp*/ref.fa.fai | wc -l
+  452  pwd
+  453  cd /scratch/bcb/xfan3/1000G_GS/NA12878/pendleton/
+  454  $L
+  455  mkdir ROC
+  456  cd ROC
+  457  ln -s ../del.pbhoney.WG.validated.bed pbhoney.bed
+  458  ln -s ../del.custom.WG.validated.bed custom.bed
+  459  ln -s ~/878_2/validation/large_DEL/get_curated/all.bed1.rmdup gs.bed
+  460  vim run.sh
+  461  ./run.sh
+  462  chmod u+x *.sh
+  463  ./run.sh
+  464  cd ../../svclassify/
+  465  mkdir ROC
+  466  cd ROC
+  467  ln -s ../del.WG.validated.bed svclassify.bed
+  468  cp ../../pendleton/ROC/run.sh ./
+  469  vim run.sh
+  470  ln -s ~/878_2/validation/large_DEL/get_curated/all.bed1.rmdup gs.bed
+  471  chmod u+x *.sh
+  472  ./run.sh
+  473  pwd
+  474  dirs
+  475  $L
+  476  vim roc.csv
+  477  vim ../roc.WG.csv
+  478  pushd ../../pendleton/ROC
+  479  vim roc.csv
+  480  vim ../roc.WG.csv
+  481  mv ../roc.WG.csv ../roc.pbhoney.WG.csv
+  482  vim ../roc.custom.WG.csv
+  483  vim ../roc.pbhoney.WG.csv 
+  484  vim ../../svclassify/roc.WG.csv 
+  485  pwd
+  486  pushd ../../svclassify/
+  487  $L
+  488  pwd
+  489  cd ..
+  490  pushd ~/cc
+  491  $L
+  492  $L ~/cc
+  493  ls *.m4
+  494  ls *m4*
+  495  awk '{print $1}' out.m4 | uniq | sort | uniq | wc -l
+  496  awk '{print $1}' all.m4 | uniq | sort | uniq | wc -l
+  497  pwd
+  498  awk '{print $2}' all.m4 | uniq | sort | uniq | wc -l
+  499  cat tmp*/ref.fa.fai | wc -l
+  500  cat tmp*/ref.1.fa.fai | wc -l
+  501  cd combinePBIL/scripts/pp
+  502  mkdir other_usage
+  503  cd other_usage/
+  504  cp ~/u/find_del_sr_unmapped.highQualReads.pl ./
+  505  cp /scratch/bcb/xfan3/u/rm_dup_bed1.pl ./
+  506  cp ~/u/find_del_sr_unmapped.pl ./
+  507  cd ..
+  508  mkdir blasr
+  509  cd other_usage/
+  510  cp ~/u/calculate_mendelian_noGT.pl ./
+  511  history > h1

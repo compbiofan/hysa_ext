@@ -1,0 +1,8 @@
+#	a	5*5	matrix	with	lines	representing	(M,	D_error,	I_error,	D,	I)
+#	the	following	is	a	3*3	matrix	of	transition	probability	of	HMM,	in	the	order	of	M,	D,	I	both	horizontally	and	vertically
+#	transition	is	from	row	to	column
+0.999	0.0004	0.0004	0.0001	0.0001
+0.50	0.49	0.005	0.001	0.004
+0.50	0.005	0.049	0.004	0.001
+0.000009	0.00000005	0.00000005	0.99995	0.0000049
+0.000009	0.00000005	0.00000005	0.0000049	0.99995
